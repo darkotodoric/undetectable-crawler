@@ -8,6 +8,9 @@ This is a Node.js script that leverages Puppeteer with extra settings to create 
 - Customizable settings for stealthy web scraping.
 - Easily extensible for your specific scraping needs.
 
+## Chrome’s Headless mode gets an upgrade
+ - https://developer.chrome.com/docs/chromium/new-headless
+
 ## Proxy
 Please note that it is essential to use a reliable residential proxy list, such as the one available at [BrightData](https://brightdata.com/), to ensure smooth and efficient web crawling while minimizing the risk of IP bans and detection
 
