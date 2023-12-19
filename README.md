@@ -1,6 +1,8 @@
 # Undetectable Crawler
 This is a Node.js script that leverages Puppeteer with extra settings to create a web crawler that avoids detection. This tool allows you to scrape websites while minimizing the risk of being blocked or identified as a bot.
 
+![image.jpeg](image.jpeg)
+
 ## Features
 - Bypasses common bot detection mechanisms.
 - Customizable settings for stealthy web scraping.
