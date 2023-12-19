@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+    undetectable-nodejs-service:
+        container_name: undetectable-nodejs-container
+        build:
+            context: .
+            dockerfile: ./docker/nodejs.Dockerfile
+        working_dir: /var/www/project
+        tty: true
+        volumes:
+            - ./:/var/www/project
