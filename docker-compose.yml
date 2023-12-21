@@ -7,6 +7,5 @@ services:
             context: .
             dockerfile: ./docker/nodejs.Dockerfile
         working_dir: /var/www/project
-        tty: true
         volumes:
             - ./:/var/www/project

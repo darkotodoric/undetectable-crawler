@@ -26,14 +26,14 @@ cd undetectable-crawler
 docker-compose build
 ```
 
-3. Run the Docker container
+3. Install npm packages
 ```
-docker-compose up -d
+docker-compose run --rm undetectable-nodejs-service npm install
 ```
 
 4. Run the crawler
 ```
-docker exec -it undetectable-nodejs-container node crawler.js https://bot.sannysoft.com/
+docker-compose run --rm undetectable-nodejs-service node crawler.js https://bot.sannysoft.com/
 ```
 
 ## Contributing
